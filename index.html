@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Loja de Óculos</title>
+</head>
+
+<body>
+    <header id="cabecalho" class="sticky-top">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1 class="navbar-brand m-0">Óculos e Relógios</h1>
+                <div class="justify-content-end">
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sobre">
+                                <i class="bi bi-house-door me-1"></i>
+                                Sobre
+                            </a>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destaques">
+                                <i class="bi bi-calendar-check me-1"></i>
+                                Destaques
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">
+                                <i class="bi bi-card-text me-1"></i>
+                                Produtos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">
+                                <i class="bi bi-chat-left-text me-1"></i>
+                                Fale Conosco
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+                <img src="./images/slides/sunset-1283872_1280.jpg" class="d-block w-100" alt="imagem de óculos laranja ao pôr do sol em uma praia">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="./images/slides/book-3089857_1280.jpg" class="d-block w-100" alt="imagem de óculos com aro com manchas amarelas em cima de um livro">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="./images/slides/clock-1461689_1280.jpg" class="d-block w-100" alt="imagem de um relógio preto em cima de uma superfície de madeira">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="./images/slides/glasses-472027_1280.jpg" class="d-block w-100" alt="imagem em preto e branco de um modelo de óculos arredondado">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="./images/slides/sunglasses-2705642_1280.jpg" class="d-block w-100" alt="imagem de mulher, de cabelo azul, posando com um modelo de óculos preto com lentes escuras">
+            </div>
+            <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+            </div>
+        </div>
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-smooth-scroll="true">
+        <section id="sobre" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 mobile">
+                        <img src="./images/loja.png" class="mx-auto d-block rounded imagem" alt="">
+                    </div>
+                    <div class="col-md-7 mt-md-0 mt-3 ">
+                        <h2>Sobre a <span>Loja</span></h2>
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi excepturi odit
+                            quaerat atque unde perspiciatis ipsam cumque quod, qui cupiditate molestiae, explicabo nemo
+                            dolores, eaque possimus reiciendis veniam repellat alias!
+                        </p>
+                        <h2>Sobre o <span>Espaço</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolorem rem, aliquam dolores
+                            iure vel eaque, dicta hic autem, optio alias illum consectetur sint dolor sed? Corporis
+                            ratione nobis similique?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destaques" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center"><span>Destaques</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./images/destaques/sunglasses-1534893_640.jpg" class="d-block w-100 rounded mb-2"
+                            alt="imagem um óculos de sol em cima de um chapéu de palha">
+                            <h3 class="fs-4 color">
+                                <i class="bi bi-calendar-heart-fill me-1"></i>
+                                Acessórios
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi, quaerat ipsam hic
+                                quos ducimus. Iusto, culpa totam. Dolor, provident? Numquam ullam blanditiis, perferendis
+                                corrupti rem doloribus eos quaerat beatae.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./images/destaques/burlesque-4067838_640.jpg" class="d-block w-100 rounded mb-2"
+                            alt="mulher com óculos em formato de coração e luvas vermelhas">
+                            <h3 class="fs-4 color">
+                                <i class="bi bi-balloon-fill"></i>
+                                    Lançamentos
+                            </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi, quaerat ipsam hic
+                                    quos ducimus. Iusto, culpa totam. Dolor, provident? Numquam ullam blanditiis, perferendis
+                                    corrupti rem doloribus eos quaerat beatae.
+                                </p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./images/destaques/percent-1176979_640.jpg" class="d-block w-100 rounded mb-2"
+                            alt="imagem de vidro quebrando com uma inscrição com os algarismos 60% sobrepondo os estilhaços">
+                            <h3 class="fs-4 color">
+                                <i class="bi bi-bag-plus-fill"></i>
+                                Programa de Descontos
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi, quaerat ipsam hic
+                                quos ducimus. Iusto, culpa totam. Dolor, provident? Numquam ullam blanditiis, perferendis
+                                corrupti rem doloribus eos quaerat beatae.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center"><span>Produtos</span>
+                    </h2>
+                </div>
+                <div class="row mt-4">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column btnNavegacao">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#oculosDeGrau" class="fw-bold text-start nav-link active">Óculos de Grau</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#oculosDeSol" class="fw-bold text-start nav-link">Óculos de Sol</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#relogios" class="fw-bold text-start nav-link">Relógios</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="oculosDeGrau">
+                                <div class="row">
+                                    <div class="col-md-3 mobile">
+                                        <div class="card ">
+                                            <img src="./images/produtos/oculosDeGrau/woman-5526483_640.jpg" class="mx-auto d-block rounded imagem"
+                                            alt="mulher com óculos de grau posando em um fundo roxo">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Óculos redondo</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mobile">
+                                        <div class="card">
+                                            <img src="./images/produtos/oculosDeGrau/hipster-358479_640.jpg" class="mx-auto h-298px d-block rounded imagem"
+                                            alt="homem com gravata borboleta posando com óculos avermelhado">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Óculos Quadrado</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mobile">
+                                        <div class="card">
+                                            <img src="./images/produtos/oculosDeGrau/woman-5526483_640.jpg" class="mx-auto d-block rounded imagem"
+                                            alt="mulher com óculos de grau posando em um fundo roxo">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Óculos redondo</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>                                   
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="oculosDeSol">
+                                <div class="row">
+                                    <div class="col-md-3 mobile mb-md-3">
+                                        <div class="card">
+                                            <img src="./images/produtos/oculosDeSol/Leonardo_Creative_man_sunglasses_0.jpg" class="mx-auto d-block rounded imagem"
+                                            alt="homem posando com óculos de lentes escuras, estilo aviador">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Modelo Aviador</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12 sol">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>                       
+                                    <div class="col-md-3 mobile">
+                                        <div class="card">
+                                            <img src="./images/produtos/oculosDeSol/Leonardo_Signature_sunglasses_model_1.jpg" class="mx-auto d-block rounded imagem"
+                                            alt="mulher posando com óculos larenja">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Modelo laranja</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12 sol">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>              
+                                    <div class="col-md-3 mobile">
+                                        <div class="card">
+                                            <img src="./images/produtos/oculosDeSol/Leonardo_Creativeman_sunglasses_1.jpg" class="mx-auto d-block rounded imagem"
+                                            alt="homem posando com óculos de lentes escuras, estilo redondo">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Modelo redondo</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12 sol">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>              
+                                    <div class="col-md-3 mobile">
+                                        <div class="card">
+                                            <img src="./images/produtos/oculosDeSol/Leonardo_Signature_sunglasses_0.jpg" class="mx-auto d-block rounded imagem"
+                                            alt="imagem de óculos ao pôr do sol">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Modelo Pôr do Sol</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12 sol">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mobile">
+                                        <div class="card">
+                                            <img src="./images/produtos/oculosDeSol/Leonardo_Signature_black_sunglasses_1.jpg" class="mx-auto d-block rounded imagem"
+                                            alt="imagem de óculos preto com lentes escuras">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Modelo Padrão</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12 relog">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>                      
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="relogios">
+                                <div class="row">
+                                    <div class="col-md-3 mobile">
+                                        <div class="card">
+                                            <img src="./images/produtos/relogio/Leonardo_Creative_mens_wrist_watch_0.jpg" class="mx-auto d-block rounded imagem"
+                                            alt="imagm de relógio com pulseira em couro marrom">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Clássico</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12 relog">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                    <div class="col-md-3 mobile">
+                                        <div class="card">
+                                            <img src="./images/produtos/relogio/watch-2605203_640.jpg" class="mx-auto d-block rounded imagem"
+                                            alt="">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Elegante</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12 relog">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                    <div class="col-md-3 mobile">
+                                        <div class="card">
+                                            <img src="./images/produtos/relogio/Leonardo_Creative_mens_wrist_watch_1.jpg" class="mx-auto d-block rounded imagem"
+                                            alt="imagm de relógio com pulseira em couro marrom e mostrador marrom escuro">
+                                            <div class="card-body">
+                                                <h5 class="mt-2 fw-bold">Funcional</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            </div>
+                                            <div class="price card-img-overlay col-12 relog">
+                                                <h4>Por: R$ 400,00</h4>
+                                                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Fale <span>Conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem </label>
+                                <textarea type="text" id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 containerRedes">
+                        <div class="row">
+                            <h3 class="fs-4"><i class="bi bi-hand-thumbs-up-fill color"></i>Redes <span>Sociais</span></h3>
+                            <ul class="redesSociais">
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-instagram ms-1 me-1"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="fs-4 color"><i class="bi bi-cursor-fill"></i>Endereço</h3>                            
+                            <p>Rua Bootstrap, nº 455, Bairro Teste, São Paulo/SP.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>

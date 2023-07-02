@@ -1,0 +1,146 @@
+body, .price>h4{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand, h2, h3, h5{
+    font-family: 'Pacifico', cursive;
+}
+.carousel-inner {
+    max-height: 548px;
+    display: flex;
+    align-items: center;
+}
+img{
+    width:100%;
+    
+}
+.color{
+    color: #e15f41;
+}
+
+#cabecalho {
+    background-color: #e15f41;
+}
+.navbar-brand, .navbar-brand:hover, #cabecalho .container .nav-link{
+    color:  #ffeae6;
+}
+#cabecalho .container .nav-link:hover{
+    background-color: #fff;
+    color: #e15f41;;
+}
+#cabecalho .nav-link.active {
+    background-color: #fff;
+    color: #e15f41;
+}
+section>.container{
+    margin-top: 1.5rem;
+}
+.btnNavegacao .nav-link.active{
+    background-color: #e15f41;
+    color:#fff;
+}
+.btnNavegacao .nav-link.active:hover{
+    color:#fff;
+}
+.btnNavegacao .nav-link{
+    color: #e15f41;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+#sobre, #produtos{
+    background-color: #ffeae6;
+}
+span{
+    color:#e15f41;
+}
+p {
+    text-align: justify;
+}
+.card{
+    border:none;
+}
+.itens{
+    list-style: none;
+}
+.redesSociais li{
+    list-style: none;
+    display: inline;
+    
+}
+.redesSociais li a{
+    text-decoration: none;
+    color: #e15f41;
+    
+}
+#contato button{
+    background-color: #e15f41;
+    color: #fff;
+}
+.card{
+    cursor: pointer;
+    position: relative;
+}
+.price { 
+    
+    display: grid;
+    place-items: center;
+    margin: 85% 0 66%;
+    position: absolute;
+    height: 30%;
+    visibility: hidden;
+    font-weight: 900;
+
+}
+.sol{
+    margin: 60% 0 66%;
+}
+.relog{
+    background-color: rgba(0,0,0, 0.8);
+    margin: 60% 0 66%;
+    transition: all 0.06s;
+}
+.mobile>.card:hover .price {
+    
+    backdrop-filter: blur(10px);
+    color: #fff;
+    visibility: visible;
+    transition:all 0.06s;
+    
+}
+.mobile>.card:hover{
+    background-color: rgba(0,0,0, 0.8)
+    
+}
+@media (max-width: 767px){
+    .containerRedes {
+        margin-top: 10px;
+    }
+    .navbar-toggler-icon{
+        width: 1em;
+    }
+    .imagem{
+        width:85%;
+    }
+    .btnNavegacao{
+        margin-bottom: 9px;
+    }
+    .card{
+        box-shadow: 5px 8px 8px #575757;
+        margin-bottom: 9px;
+    }
+    .card-body{
+        margin: 0 34.422px;
+        padding: 16px 0;
+    }
+    .price{
+        margin: 79% 0 66%;
+    }
+    .sol{
+        margin: 53% 0 66%;
+    }
+
+    
+
+    
+}
